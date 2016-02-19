@@ -3,3 +3,9 @@
 //     of the personality list
 // 2 - the browser must only redirect to the twitter handle if it is clicked
 //      on the personality selected (not on the list)
+
+var el = document.getElementById('personalities')
+
+el.addEventListener( 'click', function onElementClick(){
+     alert('Hello!');
+}, false);
