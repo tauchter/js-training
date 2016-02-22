@@ -2,18 +2,18 @@
 var myModule = {
 
   // it should receive infinite number of params and return the sum
-  sum: function() {
-    // hint: use rest params 
+  sum: function(x=0) {
+    // hint: use rest params
   },
 
   // it should receive an array of integers and return the sum of all the values
   sumArray: function() {
-    
+
   },
 
   // it should receive an array of array of integers and return the sum of all the values
   sumArrayOfArrays: function() {
-    
+
   },
 
   // the method pluck is a variant of the "map" array method

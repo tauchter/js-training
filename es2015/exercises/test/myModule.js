@@ -44,7 +44,7 @@ var ast = esprima.parse(myModuleCode);
 
 describe("myModule", function () {
 
-    it.skip('should use default parameters', function() {
+    it('should use default parameters', function() {
         var filter = function(node) {
             return node.defaults && node.defaults.length !== 0;
         };
