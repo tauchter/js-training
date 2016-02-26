@@ -6,7 +6,7 @@ import WalkingCreature  from "../src/walking-creature";
 
 describe("WalkingCreature", () => {
 
-    it("must be a function", () => {
+    it.skip("must be a function", () => {
 
         assert(typeof WalkingCreature === "function");
     });
@@ -22,7 +22,7 @@ describe("WalkingCreature", () => {
         });
     });
 
-    it("must construct objects with prototypes: WalkingCreature.prototype", () => {
+    it.skip("must construct objects with prototypes: WalkingCreature.prototype", () => {
 
         const initialOxygen = 2;
         const legs = 2;
@@ -35,7 +35,7 @@ describe("WalkingCreature", () => {
         assert(actual === expected);
     });
 
-    it("must construct objects that inherit from: LivingCreature", () => {
+    it.skip("must construct objects that inherit from: LivingCreature", () => {
 
         const initialOxygen = 2;
         const legs = 2;
@@ -48,7 +48,7 @@ describe("WalkingCreature", () => {
         assert(actual === expected);
     });
 
-    it("must construct objects that inherit from: Walker", () => {
+    it.skip("must construct objects that inherit from: Walker", () => {
 
         const initialOxygen = 2;
         const legs = 2;
